@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import { ThemeProvider as NextThemesProvider, useTheme } from "next-themes"
+import { transitionTheme } from "@/lib/theme-transition"
 
 function ThemeProvider({
   children,
@@ -55,7 +56,9 @@ function ThemeHotkey() {
         return
       }
 
-      setTheme(resolvedTheme === "dark" ? "light" : "dark")
+      transitionTheme(() =>
+        setTheme(resolvedTheme === "dark" ? "light" : "dark")
+      )
     }
 
     window.addEventListener("keydown", onKeyDown)
