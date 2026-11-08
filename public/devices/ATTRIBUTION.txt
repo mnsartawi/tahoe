@@ -6,7 +6,7 @@ magic-keyboard.png
 magic-mouse-cutout.png
 Based on “Apple Magic Mouse (8350133438)” by Justus Blümer — Wikimedia Commons, CC BY 2.0.
 
-beats-headphones.jpg
+beats-headphones.png
 “BEATS BY DR.DRE SOLO HD MONSTER HEADPHONE” by Dinkun Chen — Wikimedia Commons, CC BY-SA 4.0.
 
 xbox-controller-cutout.png
